@@ -2,7 +2,7 @@
 
 🎯 Purpose of This Repository
 
-The goal of this repository is to:
+## The goal of this repository is to:
 
 
 Build strong Machine Learning foundations
@@ -15,25 +15,25 @@ Develop engineering and decision‑making skills, not just model accuracy
 
 This is not a tutorial repo. It is a learning‑by‑building ML engineering playbook.
 
-🧠 Learning Philosophy
+## 🧠 Learning Philosophy
 
 This repository follows a progressive 3‑layer learning approach used in real ML teams:
 
-1️⃣ Algorithm‑Focused Projects
+## 1️⃣ Algorithm‑Focused Projects
 
 Each algorithm is implemented as a standalone project on a real‑world dataset.
 
-Goal:
+### Goal:
 
 Deep understanding of the algorithm
 
 Strengths, weaknesses, and assumptions
 
-2️⃣ Multi‑Algorithm Comparative Projects
+## 2️⃣ Multi‑Algorithm Comparative Projects
 
 Multiple algorithms are applied to the same problem.
 
-Goal:
+### Goal:
 
 Compare performance
 
@@ -41,9 +41,9 @@ Understand bias–variance trade‑offs
 
 Learn interpretability vs accuracy decisions
 
-3️⃣ Mixed‑Algorithm ML Systems
+## 3️⃣ Mixed‑Algorithm ML Systems
 
-End‑to‑end ML systems where algorithm choice depends on:
+### End‑to‑end ML systems where algorithm choice depends on:
 
 Data characteristics
 
@@ -51,27 +51,34 @@ Business constraints
 
 Scalability and latency
 
-Goal:
+### Goal:
 
 Learn real‑world ML decision making
 
 Think like an ML Engineer, not just a model builder
 
-📂 Repository Structure (High‑Level)
+## 📂 Repository Structure (High‑Level)
 ml-engineer-playbook/
-│
-├── 01-regression/
-├── 02-classification/
-├── 03-clustering/
-├── 04-dimensionality-reduction/
-├── 05-ensemble-learning/
-├── 06-multi-algorithm-projects/
-├── 07-real-world-ml-systems/
-├── 08-ml-system-design-notes/
-│
-└── README.md
 
-Each folder contains:
+01-regression/
+
+02-classification/
+
+03-clustering/
+
+04-dimensionality-reduction/
+
+05-ensemble-learning/
+
+06-multi-algorithm-projects/
+
+07-real-world-ml-systems/
+
+08-ml-system-design-notes/
+
+README.md
+
+### Each folder contains:
 
 Real‑world datasets
 
@@ -81,19 +88,19 @@ Detailed project‑level README files
 
 Clear conclusions and learnings
 
-📘 Complete Machine Learning Curriculum Covered
+## 📘 Complete Machine Learning Curriculum Covered
 
 This repository systematically covers end-to-end Machine Learning, from fundamentals to production-grade systems.
 
-1️⃣ Types of Machine Learning
+## 1️⃣ Types of Machine Learning
 
-1.1 Supervised Learning
+### 1.1 Supervised Learning
 
 Regression
 
 Classification
 
-1.2 Unsupervised Learning
+### 1.2 Unsupervised Learning
 
 Clustering
 
@@ -101,13 +108,13 @@ Dimensionality Reduction
 
 Association Rule Learning
 
-1.3 Semi-Supervised Learning
+### 1.3 Semi-Supervised Learning
 
 Self-Training
 
 Co-Training
 
-1.4 Reinforcement Learning
+### 1.4 Reinforcement Learning
 
 Markov Decision Process (MDP)
 
@@ -115,7 +122,7 @@ Policy-based Methods
 
 Value-based Methods
 
-2️⃣ Machine Learning Pipeline
+## 2️⃣ Machine Learning Pipeline
 
 Problem Definition
 
@@ -143,7 +150,7 @@ Deployment
 
 Monitoring & Retraining
 
-3️⃣ Data Preprocessing
+## 3️⃣ Data Preprocessing
 
 Handling Missing Values
 
@@ -163,9 +170,9 @@ Train-Test Split
 
 Cross Validation
 
-4️⃣ Supervised Learning Algorithms
+## 4️⃣ Supervised Learning Algorithms
 
-Regression Algorithms
+### Regression Algorithms
 
 Linear Regression
 
@@ -177,7 +184,7 @@ Lasso Regression
 
 Elastic Net
 
-Classification Algorithms
+### Classification Algorithms
 
 Logistic Regression
 
@@ -191,7 +198,7 @@ Decision Tree
 
 Random Forest
 
-5️⃣ Unsupervised Learning Algorithms
+## 5️⃣ Unsupervised Learning Algorithms
 
 K-Means Clustering
 
@@ -205,7 +212,7 @@ Independent Component Analysis (ICA)
 
 Apriori Algorithm
 
-6️⃣ Ensemble Learning
+## 6️⃣ Ensemble Learning
 
 Techniques
 
@@ -229,9 +236,9 @@ LightGBM
 
 CatBoost
 
-7️⃣ Model Evaluation Metrics
+## 7️⃣ Model Evaluation Metrics
 
-Regression Metrics
+### Regression Metrics
 
 MAE
 
@@ -241,7 +248,7 @@ RMSE
 
 R² Score
 
-Classification Metrics
+### Classification Metrics
 
 Confusion Matrix
 
@@ -255,7 +262,7 @@ F1-Score
 
 ROC-AUC
 
-8️⃣ Bias–Variance Tradeoff
+## 8️⃣ Bias–Variance Tradeoff
 
 Underfitting
 
@@ -263,7 +270,7 @@ Overfitting
 
 Regularization Techniques
 
-9️⃣ Feature Engineering & Selection
+## 9️⃣ Feature Engineering & Selection
 
 Feature Creation
 
@@ -279,7 +286,7 @@ Filter Methods
 
 Embedded Methods
 
-🔟 Optimization Techniques
+## 🔟 Optimization Techniques
 
 Gradient Descent
 
@@ -291,7 +298,7 @@ Mini-batch Gradient Descent
 
 Learning Rate Scheduling
 
-1️⃣1️⃣ Probability & Statistics for ML
+## 1️⃣1️⃣ Probability & Statistics for ML
 
 Probability Basics
 
@@ -307,7 +314,7 @@ Hypothesis Testing
 
 Confidence Interval
 
-1️⃣2️⃣ Mathematics for ML
+## 1️⃣2️⃣ Mathematics for ML
 
 Linear Algebra
 
@@ -325,7 +332,7 @@ Partial Derivatives
 
 Optimization Theory
 
-1️⃣3️⃣ Dimensionality Reduction
+## 1️⃣3️⃣ Dimensionality Reduction
 
 PCA
 
@@ -335,57 +342,7 @@ t-SNE
 
 UMAP
 
-1️⃣4️⃣ Model Interpretability & Explainability
-
-Feature Importance
-
-SHAP
-
-LIME
-
-Partial Dependence Plot
-
-1️⃣5️⃣ ML System Design (Google-Focused)
-
-Offline vs Online Training
-
-Data Leakage
-
-Model Drift
-
-Scalability
-
-Latency vs Accuracy Tradeoff
-
-A/B Testing
-
-1️⃣6️⃣ ML Deployment Basics
-
-Model Serialization (Pickle, Joblib)
-
-REST APIs
-
-Batch Inference
-
-Real-time Inference
-
-Model Monitoring
-
-1️⃣7️⃣ Ethical AI & Responsible ML
-
-Bias in Data
-
-Fairness
-
-Privacy
-
-Explainability
-
-Security
-
-🧪 Standard Project Design Pattern
-
-Every project in this repository follows a consistent, production‑style structure:
+## Every project in this repository follows a consistent, production‑style structure:
 
 Problem Statement
 
@@ -407,40 +364,7 @@ Final Conclusion
 
 Future Improvements
 
-📊 Learning Progression Example
-Regression Phase
-
-Linear Regression → Baseline & bias understanding
-
-Ridge / Lasso → Regularization & feature control
-
-ElasticNet → Combined trade‑offs
-
-Classification Phase
-
-Logistic Regression → Interpretable baseline
-
-Tree‑based models → Non‑linear patterns
-
-Ensemble models → Performance optimization
-
-System Phase
-
-Choosing models based on data + constraints, not hype
-
-🌍 Real‑World Focus Areas
-
-Recommendation Systems
-
-Search Ranking Systems
-
-Fraud & Anomaly Detection
-
-Customer Behavior Prediction
-
-Time‑Series Forecasting
-
-🧠 What Makes This Repository Different
+## 🧠 What Makes This Repository Different
 
 ✔ Focus on decision making, not just accuracy 
 ✔ Strong emphasis on why an algorithm is chosen 
@@ -448,7 +372,7 @@ Time‑Series Forecasting
 ✔ Clean structure and reproducibility 
 ✔ Designed with ML interviews and production systems in mind
 
-🎯 Intended Audience
+## 🎯 Intended Audience
 
 Machine Learning Engineers
 
@@ -456,18 +380,6 @@ Applied Scientists
 
 Data Scientists
 
-Candidates preparing for top product‑based companies
-
-🔮 Future Enhancements
-
-Model deployment (API‑based inference)
-
-Model monitoring & drift detection
-
-A/B testing simulations
-
-ML system architecture diagrams
-
-✨ Final Note
+## ✨ Final Note
 
 This repository represents a disciplined journey toward mastering Machine Learning fundamentals, algorithm selection, and real‑world ML systems, with the long‑term goal of contributing to large‑scale, production‑grade ML solutions.
