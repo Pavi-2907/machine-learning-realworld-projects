@@ -105,10 +105,15 @@ R² Score
 ## Model Comparison
 
 Model	                   MAE	 RMSE	 R²Score
+
 Linear Regression	       ~0.50	~0.68	~0.64
+
 Polynomial Regression	   ~0.42	~0.60	~0.72
+
 Ridge Regression	       ~0.50	~0.68	~0.64
+
 Lasso Regression	       ~0.50	~0.68	~0.64
+
 Elastic Net Regression	 ~0.56	~0.75	~0.56
 
 ## Final Conclusion
